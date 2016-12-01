@@ -7,8 +7,9 @@ target 'TouchBase' do
 
   pod 'Alamofire'
   pod 'SwiftyJSON', '~> 3.1'  
-  pod 'MRArticleViewController'
-  
+  pod 'MRArticleViewController', '~> 1.0.6'
+  pod 'CHTCollectionViewWaterfallLayout'
+  pod 'ASCollectionView', '1.0.3'  
   # Pods for TouchBase
 
 end

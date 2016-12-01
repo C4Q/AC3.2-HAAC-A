@@ -18,6 +18,8 @@
 		2D4BF0521DF0CF3C00CC704D /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4BF0511DF0CF3C00CC704D /* Articles.swift */; };
 		2D4BF0541DF0CF9300CC704D /* ArticleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4BF0531DF0CF9300CC704D /* ArticleTableViewController.swift */; };
 		2D4BF0561DF0CFC400CC704D /* ArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4BF0551DF0CFC400CC704D /* ArticleDetailViewController.swift */; };
+		2D4BF0581DF0D4C100CC704D /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4BF0571DF0D4C100CC704D /* UICollectionViewCell.swift */; };
+		2D4BF05A1DF0D4D400CC704D /* ASCollectionViewParallaxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4BF0591DF0D4D400CC704D /* ASCollectionViewParallaxCell.swift */; };
 		9B446C7717B2E56353695D82 /* Pods_TouchBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF39DD8B40933383F17AF3C9 /* Pods_TouchBase.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +38,8 @@
 		2D4BF0511DF0CF3C00CC704D /* Articles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
 		2D4BF0531DF0CF9300CC704D /* ArticleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleTableViewController.swift; sourceTree = "<group>"; };
 		2D4BF0551DF0CFC400CC704D /* ArticleDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewController.swift; sourceTree = "<group>"; };
+		2D4BF0571DF0D4C100CC704D /* UICollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
+		2D4BF0591DF0D4D400CC704D /* ASCollectionViewParallaxCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASCollectionViewParallaxCell.swift; sourceTree = "<group>"; };
 		7D09774CF2A535F9FDED71AB /* Pods-TouchBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouchBase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TouchBase/Pods-TouchBase.debug.xcconfig"; sourceTree = "<group>"; };
 		AF39DD8B40933383F17AF3C9 /* Pods_TouchBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TouchBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -83,6 +87,8 @@
 			children = (
 				2D4BF0381DF0B0EC00CC704D /* AppDelegate.swift */,
 				2D4BF03A1DF0B0EC00CC704D /* ViewController.swift */,
+				2D4BF0571DF0D4C100CC704D /* UICollectionViewCell.swift */,
+				2D4BF0591DF0D4D400CC704D /* ASCollectionViewParallaxCell.swift */,
 				2D4BF04B1DF0B3C400CC704D /* APIManager.swift */,
 				2D4BF04D1DF0B90100CC704D /* Sources.swift */,
 				2D4BF0511DF0CF3C00CC704D /* Articles.swift */,
@@ -239,10 +245,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D4BF0501DF0BBF400CC704D /* Logos.swift in Sources */,
+				2D4BF05A1DF0D4D400CC704D /* ASCollectionViewParallaxCell.swift in Sources */,
 				2D4BF0541DF0CF9300CC704D /* ArticleTableViewController.swift in Sources */,
 				2D4BF04E1DF0B90100CC704D /* Sources.swift in Sources */,
 				2D4BF04C1DF0B3C400CC704D /* APIManager.swift in Sources */,
 				2D4BF03B1DF0B0EC00CC704D /* ViewController.swift in Sources */,
+				2D4BF0581DF0D4C100CC704D /* UICollectionViewCell.swift in Sources */,
 				2D4BF0521DF0CF3C00CC704D /* Articles.swift in Sources */,
 				2D4BF0561DF0CFC400CC704D /* ArticleDetailViewController.swift in Sources */,
 				2D4BF0391DF0B0EC00CC704D /* AppDelegate.swift in Sources */,
