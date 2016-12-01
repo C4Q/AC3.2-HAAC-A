@@ -81,15 +81,11 @@
 		2D4BF0371DF0B0EC00CC704D /* TouchBase */ = {
 			isa = PBXGroup;
 			children = (
+				701CB4EC1DF0D0A200FF6714 /* ViewControllers */,
 				2D4BF0381DF0B0EC00CC704D /* AppDelegate.swift */,
-				2D4BF03A1DF0B0EC00CC704D /* ViewController.swift */,
 				2D4BF04B1DF0B3C400CC704D /* APIManager.swift */,
-				2D4BF04D1DF0B90100CC704D /* Sources.swift */,
-				2D4BF0511DF0CF3C00CC704D /* Articles.swift */,
-				2D4BF04F1DF0BBF400CC704D /* Logos.swift */,
+				701CB4ED1DF0D0D600FF6714 /* Models */,
 				2D4BF03C1DF0B0EC00CC704D /* Main.storyboard */,
-				2D4BF0551DF0CFC400CC704D /* ArticleDetailViewController.swift */,
-				2D4BF0531DF0CF9300CC704D /* ArticleTableViewController.swift */,
 				2D4BF04A1DF0B3AC00CC704D /* Supporting Files */,
 			);
 			path = TouchBase;
@@ -103,6 +99,26 @@
 				2D4BF0441DF0B0EC00CC704D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		701CB4EC1DF0D0A200FF6714 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2D4BF03A1DF0B0EC00CC704D /* ViewController.swift */,
+				2D4BF0551DF0CFC400CC704D /* ArticleDetailViewController.swift */,
+				2D4BF0531DF0CF9300CC704D /* ArticleTableViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		701CB4ED1DF0D0D600FF6714 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2D4BF04F1DF0BBF400CC704D /* Logos.swift */,
+				2D4BF04D1DF0B90100CC704D /* Sources.swift */,
+				2D4BF0511DF0CF3C00CC704D /* Articles.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		F55B59D404D177656A2E9BA5 /* Pods */ = {

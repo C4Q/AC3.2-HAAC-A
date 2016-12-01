@@ -14,7 +14,7 @@ class APIManager {
    static let shared = APIManager()
     private init() {}
     
-    func makeRequest(url: String = "https://newsapi.org/v1/sources?language=en", callback: @escaping ([Sources]?) -> Void) {
+    func makeSourceRequest(url: String = "https://newsapi.org/v1/sources?language=en", callback: @escaping ([Sources]?) -> Void) {
         
         var sources: [Sources] = []
         
@@ -37,5 +37,39 @@ class APIManager {
             }
             callback(sources)
         }.resume()
+    }
+    
+    func makeArticleEndPointURL(source: String) -> URL {
+        let url = URL(string: "https://newsapi.org/v1/articles?source=the-next-web&sortBy=latest&apiKey=df4c5752e0f5490490473486e24881ef")
+        
+        return url!
+    }
+    
+    func makeArticleRequest(source: String, callback: @escaping ([Articles]?) -> Void) {
+        
+        var articles: [Articles] = []
+        
+        let endPointUrl = makeArticleEndPointURL(source: source)
+        
+        
+        Alamofire.request(endPointUrl).validate().responseJSON { (response) in
+            guard let rawData = response.result.value else { return }
+            let json = JSON(rawData)
+            guard let articlesArray = json["articles"].array else { return }
+            
+            for article in articlesArray {
+                if let author = article["author"].string,
+                    let title = article["title"].string,
+                    let description = article["description"].string {
+                    let url = article["url"].string
+                    let articleImageUrl = article["urlToImage"].string
+                    let publishDate = article["publishedAt"].string
+                    
+                    let articleInfo = Articles(author: author, title: title, description: description, url: url!, articleImageUrl: articleImageUrl!, publishedDate: publishDate!)
+                    articles.append(articleInfo)
+                }
+            }
+            callback(articles)
+            }.resume()
     }
 }
