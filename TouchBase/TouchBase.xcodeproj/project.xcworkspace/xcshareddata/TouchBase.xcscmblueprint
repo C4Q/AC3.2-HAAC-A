@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "481C898975C144599DB7DF32B0851D8F01B67987",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "481C898975C144599DB7DF32B0851D8F01B67987" : 9223372036854775807,
+    "7F5F9FE35D3AF8E4AD76C26B362B3DBB8AA159E6" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1C6966A8-A5CD-48FA-A3FA-3377362DD2AE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "481C898975C144599DB7DF32B0851D8F01B67987" : "AC3.2-HAAC-A\/",
+    "7F5F9FE35D3AF8E4AD76C26B362B3DBB8AA159E6" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TouchBase",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TouchBase\/TouchBase.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/C4Q\/AC3.2-HAAC-A.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "481C898975C144599DB7DF32B0851D8F01B67987"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AccessLite\/BYT-CristopherChavezNY.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7F5F9FE35D3AF8E4AD76C26B362B3DBB8AA159E6"
+    }
+  ]
+}
